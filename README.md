@@ -49,15 +49,9 @@ Seu desafio é criar uma página para compra de um fone de ouvido! O modelo fina
 
 # Techs:
 
-- HTML e CSS
-- Framework ou linguagem que preferir :)
-
-# Como começar:
-
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+- HTML
+- CSS Modules
+- React
 
 # Dicas
 
@@ -77,15 +71,10 @@ As imagens utilizadas estão disponíveis na pasta `./assets`
 
 ## Icones
 
-Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
+Para os ícones, utilizei o pacote react-icons (fa)
 
 ## Tipo de fonte:
 
 - Montserrat
-
-# Compartilhe!
-
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
 
 Desafio criado por <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
