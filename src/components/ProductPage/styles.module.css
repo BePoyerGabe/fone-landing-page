@@ -1,0 +1,71 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: calc(100vh - 20rem);
+}
+
+main img {
+  width: 350px;
+}
+
+section h2 {
+  text-transform: uppercase;
+  color: var(--red);
+  letter-spacing: 1.6px;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+section p {
+  color: var(--black);
+  font-weight: 800;
+}
+
+section .ratingSection {
+  margin: 1rem 0;
+  color: var(--red);
+}
+
+section .ratingSection span + span {
+  margin-left: 0.5rem;
+}
+
+section .ratingSection span:last-child {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+section .infoProduct span {
+  display: inline-block;
+  color: var(--gray);
+  margin-bottom: 1.25rem;
+}
+
+section .cartContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .cartContainer span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section .cartContainer button {
+  padding: 0.75rem 1.35rem;
+  font-size: 0.75rem;
+  border: 0;
+  color: #fff;
+  background: var(--red);
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+  transition: box-shadow 0.2s;
+}
+
+section .cartContainer button:hover {
+  box-shadow: 2px 3px 2px var(--gray);
+}

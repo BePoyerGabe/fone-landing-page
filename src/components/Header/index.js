@@ -1,5 +1,4 @@
 import logoImg from "../../assets/logo.svg";
-import { FaShoppingCart, FaSearch, FaBars } from "react-icons/fa";
 
 import styles from "./header.module.css";
 
@@ -18,16 +17,16 @@ export function Header() {
           </ul>
         </nav>
 
-        <section className="menus">
-          <span>
-            <FaSearch color="var(--gray)" />
-          </span>
-          <span>
-            <FaShoppingCart color="var(--gray)" />
-          </span>
-          <span>
-            <FaBars color="var(--gray)" />
-          </span>
+        <section>
+          <div>
+            <i className="fa fa-search fa-lg"></i>
+          </div>
+          <div>
+            <i className="fa fa-shopping-cart fa-lg"></i>
+          </div>
+          <div>
+            <i className="fa fa-bars fa-lg"></i>
+          </div>
         </section>
       </div>
     </header>
